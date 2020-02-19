@@ -10,20 +10,35 @@ public class Ship : MonoBehaviour {
     public float border;
     public GameObject m_Ship;
 
+    public GameObject m_ball;
+
 
     // Use this for initialization
     void Start () {
 
         playerPosition = gameObject.transform.position;
+
+        
     }
 	
 	// Update is called once per frame
 	void Update () {
 
-        IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>());
+
 
         // Moviment 
-        playerPosition.x += Input.GetAxis("Horizontal") * speed;
+       
+
+        if (Input.GetAxis("Horizontal") < 0 && playerPosition.x > -7.75f) {
+            playerPosition.x += Input.GetAxis("Horizontal") * speed;
+        }
+
+        if (Input.GetAxis("Horizontal") > 0 && playerPosition.x < 0.3f)
+        {
+            playerPosition.x += Input.GetAxis("Horizontal") * speed;
+        }
+
+
 
         // Menu
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -31,12 +46,18 @@ public class Ship : MonoBehaviour {
             
         }
 
-        
+        // Ball
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            m_ball.GetComponent<Ball>().Speed = 5f;
+            m_ball.transform.SetParent(null);
+
+        }
+
         transform.position = playerPosition;
 
     }
-    public bool IntersectBounds(SpriteRenderer l_border, SpriteRenderer l_Ship)
-    {
-        return l_border.bounds.max.x > l_Ship.bounds.min.x && l_border.bounds.min.x > l_Ship.bounds.max.x;
-    }
+
+
+
 }
