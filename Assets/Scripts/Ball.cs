@@ -8,8 +8,11 @@ public class Ball : MonoBehaviour {
     public float Speed = 0f;
     public Vector3 Vectordirector;
     public GameObject m_Ship;
+
+
 	// Use this for initialization
 	void Start () {
+
         int random = Random.Range(0, 2);
 
         if (random == 0)
@@ -29,7 +32,7 @@ public class Ball : MonoBehaviour {
         // Speed
         this.transform.position += Time.deltaTime * Speed * Vectordirector;
 
-        // Position 
+        // BOUNCES 
      
         // GoLeftUp
         if (transform.position.x > 1f && Vectordirector.y > 0)
@@ -68,6 +71,8 @@ public class Ball : MonoBehaviour {
             Vectordirector = Vector3.left + Vector3.down;
 
         }
+
+        //SHIP BOUNCE
 
         if (IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>()) == true) {
             if (Vectordirector.x > 0)
