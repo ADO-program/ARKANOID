@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Bricks : MonoBehaviour {
 
-    public Vector3 Vectordirector;
     public GameObject m_ball1;
 
 
@@ -17,43 +16,77 @@ public class Bricks : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        IntersectBounds(GetComponent<SpriteRenderer>(), m_ball1.GetComponent<SpriteRenderer>());
+
         // BOUNCES 
 
-        // GoLeftUp
-        if ((IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>()) == true) && )
+        if (IntersectBounds(GetComponent<SpriteRenderer>(), m_ball1.GetComponent<SpriteRenderer>()) == true)
         {
-            Vectordirector = Vector3.left + Vector3.up;
 
-        }
-        //GoRightUp
-        else if ((IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>()) == true) && )
-        {
-            Vectordirector = Vector3.right + Vector3.up;
+            //coming from left
+            if(m_ball1.transform.position.x < this.GetComponent<SpriteRenderer>().bounds.min.x)
+            {
+                //subiendo?
+                if (m_ball1.GetComponent<Ball>().Vectordirector.y > 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.up;
+                }
+                //bajando
+                else if(m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.down;
+                }
 
-        }
-        //GoRightDown
-        else if ((IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>()) == true) && )
-        {
-            Vectordirector = Vector3.right + Vector3.down;
+            }
 
-        }
-        //GoLeftDown
-        else if ((IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>()) == true) && )
-        {
-            Vectordirector = Vector3.left + Vector3.down;
+            //coming from right
+            if (m_ball1.transform.position.x > this.GetComponent<SpriteRenderer>().bounds.max.x)
+            {
+                //subiendo
+                if (m_ball1.GetComponent<Ball>().Vectordirector.y > 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.up;
+                }
+                //bajando
+                else if(m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.down;
+                }
 
-        }
-        //Up
+            }
 
-        else if ((IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>()) == true) && )
-        {
-            Vectordirector = Vector3.right + Vector3.down;
+            //coming from above
+            if (m_ball1.transform.position.y > this.GetComponent<SpriteRenderer>().bounds.max.y)
+            {
+                //derecha
+                if (m_ball1.GetComponent<Ball>().Vectordirector.x > 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.up;
+                }
+                //izquierda
+                else if(m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.up;
+                }
 
-        }
+            }
 
-        else if ((IntersectBounds(GetComponent<SpriteRenderer>(), m_Ship.GetComponent<SpriteRenderer>()) == true) && )
-        {
-            Vectordirector = Vector3.left + Vector3.down;
+            //coming from under
+            if (m_ball1.transform.position.y < this.GetComponent<SpriteRenderer>().bounds.min.y)
+            {
+                //derecha
+                if (m_ball1.GetComponent<Ball>().Vectordirector.x > 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.down;
+                }
+                //izquierda
+                else if(m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
+                {
+                    m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.down;
+                }
+
+            }
+
 
         }
 
