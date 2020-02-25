@@ -8,10 +8,13 @@ public class Ball : MonoBehaviour {
     public float Speed = 0f;
     public Vector3 Vectordirector;
     public GameObject m_Ship;
+    private GameManager m_GameManager;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
+        m_GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+
 
         int random = Random.Range(0, 2);
 
@@ -70,6 +73,11 @@ public class Ball : MonoBehaviour {
         {
             Vectordirector = Vector3.left + Vector3.down;
 
+        }
+
+        if (transform.position.y < -5f) {
+            Destroy(this.gameObject);
+            m_GameManager.m_vidas -= 1;
         }
 
         //SHIP BOUNCE
