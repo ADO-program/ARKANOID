@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Bricks : MonoBehaviour {
+public class BricksPU : MonoBehaviour {
 
     public GameObject m_ball1;
 
@@ -12,9 +12,10 @@ public class Bricks : MonoBehaviour {
     void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
 
         IntersectBounds(GetComponent<SpriteRenderer>(), m_ball1.GetComponent<SpriteRenderer>());
 
@@ -24,7 +25,7 @@ public class Bricks : MonoBehaviour {
         {
 
             //coming from left
-            if(m_ball1.transform.position.x < this.GetComponent<SpriteRenderer>().bounds.min.x)
+            if (m_ball1.transform.position.x < this.GetComponent<SpriteRenderer>().bounds.min.x)
             {
                 //subiendo?
                 if (m_ball1.GetComponent<Ball>().Vectordirector.y > 0)
@@ -32,7 +33,7 @@ public class Bricks : MonoBehaviour {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.up;
                 }
                 //bajando
-                else if(m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
+                else if (m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.down;
                 }
@@ -48,7 +49,7 @@ public class Bricks : MonoBehaviour {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.up;
                 }
                 //bajando
-                else if(m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
+                else if (m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.down;
                 }
@@ -64,7 +65,7 @@ public class Bricks : MonoBehaviour {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.up;
                 }
                 //izquierda
-                else if(m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
+                else if (m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.up;
                 }
@@ -80,12 +81,13 @@ public class Bricks : MonoBehaviour {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.down;
                 }
                 //izquierda
-                else if(m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
+                else if (m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.down;
                 }
 
             }
+
 
 
         }
