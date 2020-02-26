@@ -76,7 +76,7 @@ public class Ball : MonoBehaviour {
 
         }
 
-        if (transform.position.y < -5f) {
+        if (transform.position.y < -6f) {
             this.transform.position = ResetBall.transform.position;
             m_GameManager.m_vidas -= 1;
             Speed = 0f;
