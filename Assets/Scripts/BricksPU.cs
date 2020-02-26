@@ -8,11 +8,14 @@ public class BricksPU : MonoBehaviour {
     private int randomPU;
     public GameObject[] PowerUps;
 
+    private GameManager m_GameManager;
+
 
     // Use this for initialization
     void Start () {
-		
-	}
+        m_GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -98,6 +101,8 @@ public class BricksPU : MonoBehaviour {
                 CrearPowerUp(PowerUps[Random.Range(0, PowerUps.Length)]);
 
             }
+
+            m_GameManager.m_score += 10;
 
             Destroy(this.gameObject);
 
