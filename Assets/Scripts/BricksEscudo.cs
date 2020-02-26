@@ -2,11 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BricksPU : MonoBehaviour {
+public class BricksEscudo : MonoBehaviour {
 
     public GameObject m_ball1;
-    private int randomPU;
-    public GameObject[] PowerUps;
+    
 
 
     // Use this for initialization
@@ -89,20 +88,7 @@ public class BricksPU : MonoBehaviour {
 
             }
 
-            randomPU = Random.Range(1,11);
-            
-            //hacer random
-            if (randomPU <= 3)
-            {
-
-                CrearPowerUp(PowerUps[Random.Range(0, PowerUps.Length)]);
-
-            }
-
             Destroy(this.gameObject);
-
-            
-            
 
         }
 
