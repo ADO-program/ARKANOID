@@ -29,8 +29,8 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 
         m_TextPuntuacio.text = "Score: " + Mathf.Round(m_score);
-        m_TextVidas.text = "Vidas" + m_vidas;
-        m_score += (Time.deltaTime);
+        m_TextVidas.text = "" + m_vidas;
+        
         Vidas();
 
 
@@ -54,6 +54,9 @@ public class GameManager : MonoBehaviour {
     public void RestartGame()
     {
         m_GameRestart.SetActive(false);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(0);
+
+       // Passar scene SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+
     }
 }

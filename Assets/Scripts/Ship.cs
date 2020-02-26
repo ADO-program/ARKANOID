@@ -12,8 +12,12 @@ public class Ship : MonoBehaviour {
 
     public GameObject m_ball;
 
-    // public Sprite Powerupcontrols;
-
+    //public Sprite Powerupcontrols;
+    //public Sprite Enlarge;
+    //public Sprite Iron;
+    //public Sprite Multiply;
+    //public Sprite Sticky;
+    //public Sprite Velocity;
 
     // Use this for initialization
     void Start () {

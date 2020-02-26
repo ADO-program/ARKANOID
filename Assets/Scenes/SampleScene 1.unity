@@ -230,6 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 96127389}
   - component: {fileID: 96127390}
+  - component: {fileID: 96127391}
   m_Layer: 0
   m_Name: brick1.3
   m_TagString: Untagged
@@ -296,6 +297,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &96127391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 96127388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1001 &157822418
 Prefab:
   m_ObjectHideFlags: 0
@@ -357,6 +372,7 @@ GameObject:
   m_Component:
   - component: {fileID: 167725076}
   - component: {fileID: 167725077}
+  - component: {fileID: 167725078}
   m_Layer: 0
   m_Name: brick1.5
   m_TagString: Untagged
@@ -423,6 +439,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &167725078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 167725075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &172723441
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 172723442}
   - component: {fileID: 172723443}
+  - component: {fileID: 172723444}
   m_Layer: 0
   m_Name: brick4.3
   m_TagString: Untagged
@@ -498,6 +529,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &172723444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 172723441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!4 &190455300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4960290314242186, guid: 488ada7522f924a4b809c51d767d7d9c,
@@ -512,6 +557,7 @@ GameObject:
   m_Component:
   - component: {fileID: 270420286}
   - component: {fileID: 270420287}
+  - component: {fileID: 270420288}
   m_Layer: 0
   m_Name: brick3.3
   m_TagString: Untagged
@@ -578,6 +624,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &270420288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270420285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &282294609
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365101936}
   - component: {fileID: 365101937}
+  - component: {fileID: 365101938}
   m_Layer: 0
   m_Name: brick6.1
   m_TagString: Untagged
@@ -729,6 +790,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &365101938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 365101935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &375652042
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,6 +813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 375652043}
   - component: {fileID: 375652044}
+  - component: {fileID: 375652045}
   m_Layer: 0
   m_Name: brick2.3
   m_TagString: Untagged
@@ -804,6 +880,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &375652045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 375652042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &474774864
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +1072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 534903949}
   - component: {fileID: 534903950}
+  - component: {fileID: 534903951}
   m_Layer: 0
   m_Name: brick4.4
   m_TagString: Untagged
@@ -1048,6 +1139,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &534903951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 534903948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &555751840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1162,7 @@ GameObject:
   m_Component:
   - component: {fileID: 555751841}
   - component: {fileID: 555751842}
+  - component: {fileID: 555751843}
   m_Layer: 0
   m_Name: brick2.5
   m_TagString: Untagged
@@ -1123,6 +1229,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &555751843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 555751840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &604651783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1132,6 +1252,7 @@ GameObject:
   m_Component:
   - component: {fileID: 604651784}
   - component: {fileID: 604651785}
+  - component: {fileID: 604651786}
   m_Layer: 0
   m_Name: brick5.2
   m_TagString: Untagged
@@ -1198,6 +1319,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &604651786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 604651783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &630555245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 630555246}
   - component: {fileID: 630555247}
+  - component: {fileID: 630555248}
   m_Layer: 0
   m_Name: brick6.4
   m_TagString: Untagged
@@ -1273,6 +1409,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &630555248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 630555245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &664800854
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,6 +1432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 664800855}
   - component: {fileID: 664800856}
+  - component: {fileID: 664800857}
   m_Layer: 0
   m_Name: brick2.4
   m_TagString: Untagged
@@ -1348,6 +1499,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &664800857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664800854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &684701220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1357,6 +1522,7 @@ GameObject:
   m_Component:
   - component: {fileID: 684701221}
   - component: {fileID: 684701222}
+  - component: {fileID: 684701223}
   m_Layer: 0
   m_Name: brick1.1
   m_TagString: Untagged
@@ -1423,6 +1589,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &684701223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 684701220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &747289415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1432,6 +1612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 747289416}
   - component: {fileID: 747289417}
+  - component: {fileID: 747289418}
   m_Layer: 0
   m_Name: brick3.5
   m_TagString: Untagged
@@ -1498,6 +1679,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &747289418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 747289415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &773606497
 GameObject:
   m_ObjectHideFlags: 0
@@ -1540,6 +1735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 813236802}
   - component: {fileID: 813236803}
+  - component: {fileID: 813236804}
   m_Layer: 0
   m_Name: brick5.5
   m_TagString: Untagged
@@ -1606,6 +1802,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &813236804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 813236801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &819330957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1615,6 +1825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819330958}
   - component: {fileID: 819330959}
+  - component: {fileID: 819330960}
   m_Layer: 0
   m_Name: brick4.2
   m_TagString: Untagged
@@ -1681,6 +1892,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &819330960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819330957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &820478605
 GameObject:
   m_ObjectHideFlags: 0
@@ -1770,6 +1995,7 @@ GameObject:
   m_Component:
   - component: {fileID: 859571003}
   - component: {fileID: 859571004}
+  - component: {fileID: 859571005}
   m_Layer: 0
   m_Name: Brick3.6
   m_TagString: Untagged
@@ -1836,6 +2062,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &859571005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 859571002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &869298993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,6 +2085,7 @@ GameObject:
   m_Component:
   - component: {fileID: 869298994}
   - component: {fileID: 869298995}
+  - component: {fileID: 869298996}
   m_Layer: 0
   m_Name: brick1.4
   m_TagString: Untagged
@@ -1911,6 +2152,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &869298996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 869298993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &977368686
 GameObject:
   m_ObjectHideFlags: 0
@@ -1920,6 +2175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 977368687}
   - component: {fileID: 977368688}
+  - component: {fileID: 977368689}
   m_Layer: 0
   m_Name: brick3.1
   m_TagString: Untagged
@@ -1986,6 +2242,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &977368689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 977368686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1015324527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2090,6 +2360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1026340699}
   - component: {fileID: 1026340700}
+  - component: {fileID: 1026340701}
   m_Layer: 0
   m_Name: brick5.4
   m_TagString: Untagged
@@ -2156,6 +2427,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1026340701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1026340698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1086892802
 GameObject:
   m_ObjectHideFlags: 0
@@ -2198,6 +2483,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115024211}
   - component: {fileID: 1115024212}
+  - component: {fileID: 1115024213}
   m_Layer: 0
   m_Name: brick5.3
   m_TagString: Untagged
@@ -2264,6 +2550,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1115024213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1115024210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1133897550
 GameObject:
   m_ObjectHideFlags: 0
@@ -2306,6 +2606,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1139326424}
   - component: {fileID: 1139326425}
+  - component: {fileID: 1139326426}
   m_Layer: 0
   m_Name: brick3.2
   m_TagString: Untagged
@@ -2372,6 +2673,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1139326426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1139326423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1152885587
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1152885588}
   - component: {fileID: 1152885589}
+  - component: {fileID: 1152885590}
   m_Layer: 0
   m_Name: brick3.4
   m_TagString: Untagged
@@ -2447,6 +2763,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1152885590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1152885587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1173396559
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,6 +2786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1173396560}
   - component: {fileID: 1173396561}
+  - component: {fileID: 1173396562}
   m_Layer: 0
   m_Name: brick6.5
   m_TagString: Untagged
@@ -2522,6 +2853,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1173396562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1173396559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1191415819
 GameObject:
   m_ObjectHideFlags: 0
@@ -2684,6 +3029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1367723744}
   - component: {fileID: 1367723745}
+  - component: {fileID: 1367723746}
   m_Layer: 0
   m_Name: brick6.3
   m_TagString: Untagged
@@ -2750,6 +3096,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1367723746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1367723743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1418784598
 GameObject:
   m_ObjectHideFlags: 0
@@ -2759,6 +3119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1418784599}
   - component: {fileID: 1418784600}
+  - component: {fileID: 1418784601}
   m_Layer: 0
   m_Name: brick6.2
   m_TagString: Untagged
@@ -2825,6 +3186,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1418784601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1418784598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1001 &1487554636
 Prefab:
   m_ObjectHideFlags: 0
@@ -2888,6 +3263,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526977160}
   - component: {fileID: 1526977161}
+  - component: {fileID: 1526977162}
   m_Layer: 0
   m_Name: brick1.2
   m_TagString: Untagged
@@ -2954,6 +3330,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1526977162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1526977159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1533816610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2963,6 +3353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1533816611}
   - component: {fileID: 1533816612}
+  - component: {fileID: 1533816613}
   m_Layer: 0
   m_Name: brick2.1
   m_TagString: Untagged
@@ -3029,6 +3420,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1533816613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533816610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1545151693
 GameObject:
   m_ObjectHideFlags: 0
@@ -3038,6 +3443,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1545151694}
   - component: {fileID: 1545151695}
+  - component: {fileID: 1545151696}
   m_Layer: 0
   m_Name: brick5.1
   m_TagString: Untagged
@@ -3104,6 +3510,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1545151696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545151693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1673571120
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,6 +3533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673571121}
   - component: {fileID: 1673571122}
+  - component: {fileID: 1673571123}
   m_Layer: 0
   m_Name: Brick5.6
   m_TagString: Untagged
@@ -3179,6 +3600,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1673571123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1673571120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1707489143
 GameObject:
   m_ObjectHideFlags: 0
@@ -3222,6 +3657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771408065}
   - component: {fileID: 1771408066}
+  - component: {fileID: 1771408067}
   m_Layer: 0
   m_Name: brick4.5
   m_TagString: Untagged
@@ -3288,6 +3724,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1771408067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1771408064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1810625269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3621,6 +4071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1963293777}
   - component: {fileID: 1963293778}
+  - component: {fileID: 1963293779}
   m_Layer: 0
   m_Name: Brick1.6
   m_TagString: Untagged
@@ -3687,6 +4138,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1963293779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1963293776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &1976807645
 GameObject:
   m_ObjectHideFlags: 0
@@ -3696,6 +4161,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976807646}
   - component: {fileID: 1976807647}
+  - component: {fileID: 1976807648}
   m_Layer: 0
   m_Name: brick4.1
   m_TagString: Untagged
@@ -3762,6 +4228,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1976807648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1976807645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1001 &2025023033
 Prefab:
   m_ObjectHideFlags: 0
@@ -3822,6 +4302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2048967904}
   - component: {fileID: 2048967905}
+  - component: {fileID: 2048967906}
   m_Layer: 0
   m_Name: brick2.2
   m_TagString: Untagged
@@ -3888,6 +4369,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2048967906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2048967903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1224524502}
+  PowerUps:
+  - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
 --- !u!1 &2090420391
 GameObject:
   m_ObjectHideFlags: 0
