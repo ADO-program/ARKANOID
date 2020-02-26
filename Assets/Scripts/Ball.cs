@@ -9,6 +9,7 @@ public class Ball : MonoBehaviour {
     public Vector3 Vectordirector;
     public GameObject m_Ship;
     private GameManager m_GameManager;
+    public GameObject ResetBall;
 
 
     // Use this for initialization
@@ -76,8 +77,10 @@ public class Ball : MonoBehaviour {
         }
 
         if (transform.position.y < -5f) {
-            Destroy(this.gameObject);
+            this.transform.position = ResetBall.transform.position;
             m_GameManager.m_vidas -= 1;
+            Speed = 0f;
+            this.transform.SetParent(m_Ship.transform);
         }
 
         //SHIP BOUNCE

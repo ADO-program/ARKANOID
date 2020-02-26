@@ -29,10 +29,16 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 
         m_TextPuntuacio.text = "Score: " + Mathf.Round(m_score);
-        m_TextVidas.text = "Vidas" + m_vidas; ;
+        m_TextVidas.text = "Vidas" + m_vidas;
         m_score += (Time.deltaTime);
+        Vidas();
 
 
+        // Menu
+        if (Input.GetKeyDown(KeyCode.Escape))
+        { 
+           SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     public void Vidas()

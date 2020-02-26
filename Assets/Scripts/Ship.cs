@@ -12,13 +12,17 @@ public class Ship : MonoBehaviour {
 
     public GameObject m_ball;
 
+    // public Sprite Powerupcontrols;
+
 
     // Use this for initialization
     void Start () {
 
         playerPosition = gameObject.transform.position;
 
-        
+        // GetComponent<SpriteRenderer>().sprite= 
+
+
     }
 	
 	// Update is called once per frame
@@ -38,13 +42,6 @@ public class Ship : MonoBehaviour {
             playerPosition.x += Input.GetAxis("Horizontal") * speed;
         }
 
-
-
-        // Menu
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            
-        }
 
         // Ball
         if (Input.GetKeyDown(KeyCode.Space))
