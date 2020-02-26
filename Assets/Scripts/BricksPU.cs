@@ -92,7 +92,7 @@ public class BricksPU : MonoBehaviour {
             randomPU = Random.Range(1,11);
             
             //hacer random
-            if (randomPU <= 3)
+            if (randomPU <= 4)
             {
 
                 CrearPowerUp(PowerUps[Random.Range(0, PowerUps.Length)]);
