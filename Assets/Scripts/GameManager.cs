@@ -24,14 +24,17 @@ public class GameManager : MonoBehaviour {
 
 
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
 
         m_TextPuntuacio.text = "Score: " + Mathf.Round(m_score);
         m_TextVidas.text = "" + m_vidas;
-        
+
         Vidas();
+        // if bricks == 0
+        // Passar scene SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+        // }
 
 
         // Menu
@@ -51,12 +54,13 @@ public class GameManager : MonoBehaviour {
 
     }
 
+
     public void RestartGame()
     {
         m_GameRestart.SetActive(false);
         SceneManager.LoadScene(0);
 
-       // Passar scene SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+       
 
     }
 }
