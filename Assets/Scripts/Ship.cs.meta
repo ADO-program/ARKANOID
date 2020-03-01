@@ -3,7 +3,20 @@ guid: 42db511b55e9992469530b3aa3f3fe0c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - m_Ship: {fileID: 1105196577860506, guid: 9605f468d70507e40b98b942c730a573, type: 2}
+  - m_ball: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  - m_ControlsPU: {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db,
+      type: 2}
+  - m_EnlargePU: {fileID: 1804349644277114, guid: 96e65e902a501e04b840e3bc78e75415,
+      type: 2}
+  - m_IronPU: {fileID: 1735197289815364, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - m_MultiplyPU: {fileID: 1745488586654508, guid: 7b7be258a97977c4982f0a618f624d09,
+      type: 2}
+  - m_StickyPU: {fileID: 1776334960469430, guid: 725447289c8abd341b47bb08a08d1db8,
+      type: 2}
+  - m_VelocityPU: {fileID: 1733625685754220, guid: e867c6a5209fbcc44a82240c06a682c1,
+      type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
