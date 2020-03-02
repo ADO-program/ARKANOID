@@ -5,8 +5,9 @@ using UnityEngine;
 public class BricksEscudo : MonoBehaviour {
 
     public GameObject m_ball1;
-    
 
+    public AudioSource soundfx;
+    public AudioClip brick;
 
     // Use this for initialization
     void Start () {
@@ -31,11 +32,15 @@ public class BricksEscudo : MonoBehaviour {
                 if (m_ball1.GetComponent<Ball>().Vectordirector.y > 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.up;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
                 //bajando
                 else if (m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.down;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
 
             }
@@ -47,11 +52,15 @@ public class BricksEscudo : MonoBehaviour {
                 if (m_ball1.GetComponent<Ball>().Vectordirector.y > 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.up;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
                 //bajando
                 else if (m_ball1.GetComponent<Ball>().Vectordirector.y < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.down;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
 
             }
@@ -63,11 +72,15 @@ public class BricksEscudo : MonoBehaviour {
                 if (m_ball1.GetComponent<Ball>().Vectordirector.x > 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.up;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
                 //izquierda
                 else if (m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.up;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
 
             }
@@ -79,11 +92,15 @@ public class BricksEscudo : MonoBehaviour {
                 if (m_ball1.GetComponent<Ball>().Vectordirector.x > 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.right + Vector3.down;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
                 //izquierda
                 else if (m_ball1.GetComponent<Ball>().Vectordirector.x < 0)
                 {
                     m_ball1.GetComponent<Ball>().Vectordirector = Vector3.left + Vector3.down;
+                    soundfx.clip = brick;
+                    soundfx.Play();
                 }
 
             }

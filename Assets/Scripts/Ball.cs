@@ -10,7 +10,8 @@ public class Ball : MonoBehaviour {
     public GameObject m_Ship;
     private GameManager m_GameManager;
     public GameObject ResetBall;
-
+    public AudioSource soundfx;
+    public AudioClip wall;
 
     // Use this for initialization
     void Start () {
@@ -42,13 +43,16 @@ public class Ball : MonoBehaviour {
         if (transform.position.x > 1f && Vectordirector.y > 0)
         {
             Vectordirector = Vector3.left + Vector3.up;
+            soundfx.clip = wall;
+            soundfx.Play();
 
         }
         //GoRightUp
         else if (transform.position.x < -8.5f && Vectordirector.y > 0)
         {
             Vectordirector = Vector3.right + Vector3.up;
-
+            soundfx.clip = wall;
+            soundfx.Play();
         }
         //GoRightDown
         else if (transform.position.x < -8.5f && Vectordirector.y < 0)
@@ -60,20 +64,23 @@ public class Ball : MonoBehaviour {
         else if (transform.position.x > 1f && Vectordirector.y < 0)
         {
             Vectordirector = Vector3.left + Vector3.down;
-
+            soundfx.clip = wall;
+            soundfx.Play();
         }
         //Up
 
         else if (transform.position.y > 4.635f && Vectordirector.x > 0)
         {
             Vectordirector = Vector3.right + Vector3.down;
-
+            soundfx.clip = wall;
+            soundfx.Play();
         }
 
         else if (transform.position.y > 4.635f && Vectordirector.x < 0)
         {
             Vectordirector = Vector3.left + Vector3.down;
-
+            soundfx.clip = wall;
+            soundfx.Play();
         }
 
         if (transform.position.y < -6f) {
@@ -89,6 +96,7 @@ public class Ball : MonoBehaviour {
             if (Vectordirector.x > 0)
             {
                 Vectordirector = Vector3.up + Vector3.right;
+
             }
             else if (Vectordirector.x < 0) {
                 Vectordirector = Vector3.up + Vector3.left;
