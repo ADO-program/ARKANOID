@@ -200,7 +200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -379,6 +379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 120615516}
   - component: {fileID: 120615517}
+  - component: {fileID: 120615518}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -445,6 +446,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &120615518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 120615515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &123059822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1105196577860506, guid: 9605f468d70507e40b98b942c730a573,
@@ -637,7 +652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -729,7 +744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -742,6 +757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 166346419}
   - component: {fileID: 166346420}
+  - component: {fileID: 166346421}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -808,6 +824,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &166346421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 166346418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!4 &190455300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4960290314242186, guid: 488ada7522f924a4b809c51d767d7d9c,
@@ -1047,7 +1077,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -1138,7 +1168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -1229,7 +1259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -1321,7 +1351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -1381,6 +1411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 423269546}
   - component: {fileID: 423269547}
+  - component: {fileID: 423269548}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -1447,6 +1478,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &423269548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 423269545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &445309877
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +1580,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -1548,6 +1593,7 @@ GameObject:
   m_Component:
   - component: {fileID: 462026211}
   - component: {fileID: 462026212}
+  - component: {fileID: 462026213}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -1614,6 +1660,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &462026213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 462026210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1001 &513575904
 Prefab:
   m_ObjectHideFlags: 0
@@ -1933,7 +1993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -1997,6 +2057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 703611759}
   - component: {fileID: 703611760}
+  - component: {fileID: 703611761}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -2063,6 +2124,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &703611761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 703611758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &773047204
 GameObject:
   m_ObjectHideFlags: 0
@@ -2150,7 +2225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -2251,7 +2326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -2264,6 +2339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912202580}
   - component: {fileID: 912202581}
+  - component: {fileID: 912202582}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -2330,6 +2406,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &912202582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 912202579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &942444015
 GameObject:
   m_ObjectHideFlags: 0
@@ -2540,7 +2630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -2632,7 +2722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -2724,7 +2814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -2815,7 +2905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -2906,7 +2996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -3064,7 +3154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -3246,7 +3336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -3337,7 +3427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -3350,6 +3440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1392361203}
   - component: {fileID: 1392361204}
+  - component: {fileID: 1392361205}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -3416,6 +3507,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1392361205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1392361202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1421261656
 GameObject:
   m_ObjectHideFlags: 0
@@ -3503,7 +3608,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -3516,6 +3621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1448852573}
   - component: {fileID: 1448852574}
+  - component: {fileID: 1448852575}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -3582,6 +3688,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1448852575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1448852572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1001 &1487554636
 Prefab:
   m_ObjectHideFlags: 0
@@ -3798,7 +3918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -4267,7 +4387,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70827527f9bdbd74f8b1dccf0aa22c73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ball1: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b, type: 2}
+  m_ball1: {fileID: 1157043018}
   PowerUps: []
   soundfx: {fileID: 123059823}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
@@ -4280,6 +4400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042460569}
   - component: {fileID: 2042460570}
+  - component: {fileID: 2042460571}
   m_Layer: 0
   m_Name: brick cover
   m_TagString: Untagged
@@ -4346,6 +4467,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2042460571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2042460568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309d3d5e0c2be0645a28d0ce4405c693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ball1: {fileID: 1157043018}
+  soundfx: {fileID: 123059823}
+  brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &2096490721
 GameObject:
   m_ObjectHideFlags: 0
