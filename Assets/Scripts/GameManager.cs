@@ -19,7 +19,8 @@ public class GameManager : MonoBehaviour {
     public int m_bricks = 33;
 
 
-    [HideInInspector] public float m_score;
+    [HideInInspector] static float m_score;
+    [HideInInspector] public  float m_score1;
     public int m_vidas;
 
     void Start () {
@@ -37,6 +38,11 @@ public class GameManager : MonoBehaviour {
     // Update is called once per frame
     void Update() {
 
+        if(m_score1>0)
+        { 
+            m_score += m_score1;
+            m_score1 = 0;
+        }
         m_TextPuntuacio.text = "Score: " + Mathf.Round(m_score);
         m_TextVidas.text = "" + m_vidas;
 
