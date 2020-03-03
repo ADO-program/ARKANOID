@@ -6,7 +6,6 @@ public class PUMovement : MonoBehaviour {
 
     public Vector3 Vectordirector;
     private float Speed = 1f;
-    
 
     // Use this for initialization
     void Start () {
@@ -25,10 +24,5 @@ public class PUMovement : MonoBehaviour {
             Destroy(this.gameObject);
         }
 
-        
-
     }
-
-    
-
 }

@@ -3,10 +3,7 @@ guid: b59cbad81f63a3943aadf3d2764e7e32
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - m_Ship: {fileID: 1105196577860506, guid: 9605f468d70507e40b98b942c730a573, type: 2}
-  - ResetBall: {fileID: 1126037830835654, guid: 573df0e7b4922aa44ac5fe831ee5812b,
-      type: 2}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
