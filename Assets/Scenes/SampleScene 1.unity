@@ -4312,7 +4312,7 @@ MonoBehaviour:
   m_TextPuntuacio: {fileID: 1930692017}
   m_TextVidas: {fileID: 820478606}
   m_GameRestart: {fileID: 282294609}
-  m_bricks: 2
+  m_bricks: 33
   m_score: 0
   m_vidas: 3
 --- !u!4 &1821647991

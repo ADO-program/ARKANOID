@@ -13,11 +13,16 @@ public class Ball : MonoBehaviour {
     public AudioSource soundfx;
     public AudioClip wall;
 
+    // Speed
+    float currentCD  = 0;
+    public float maxCDSpeed = 5.0f;
+    
+
     // Use this for initialization
     void Start () {
         m_GameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
 
-
+        
         int random = Random.Range(0, 2);
 
         if (random == 0)
@@ -101,6 +106,22 @@ public class Ball : MonoBehaviour {
             else if (Vectordirector.x < 0) {
                 Vectordirector = Vector3.up + Vector3.left;
             }
+
+        }
+
+
+
+        if ((currentCD >= maxCDSpeed) && (Speed < 10)&& (Speed >= 5)) {
+
+            Speed += 0.2f;
+            currentCD = 0f;
+
+        }
+        if (currentCD < maxCDSpeed)
+        {
+
+            
+            currentCD += Time.deltaTime;
 
         }
 
