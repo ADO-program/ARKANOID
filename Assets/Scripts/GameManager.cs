@@ -16,12 +16,21 @@ public class GameManager : MonoBehaviour {
     public Text m_TextVidas;
     public GameObject m_GameRestart;
 
+    public int m_bricks = 33;
+
 
     [HideInInspector] public float m_score;
     public int m_vidas;
 
     void Start () {
-
+        if (SceneManager.GetActiveScene().buildIndex == 1)
+        {
+            m_bricks = 23;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            m_bricks = 35;
+        }
 
     }
 
@@ -32,9 +41,10 @@ public class GameManager : MonoBehaviour {
         m_TextVidas.text = "" + m_vidas;
 
         Vidas();
-        // if bricks == 0
-        // Passar scene SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
-        // }
+        if (m_bricks == 0) { 
+         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            
+        }
 
 
         // Menu
