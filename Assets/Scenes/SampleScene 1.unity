@@ -311,6 +311,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1001 &157822418
@@ -477,6 +482,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &172723441
@@ -569,6 +579,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!4 &190455300 stripped
@@ -666,6 +681,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &282294609
@@ -834,6 +854,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &375652042
@@ -926,6 +951,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &474774864
@@ -1283,6 +1313,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &555751840
@@ -1375,6 +1410,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &604651783
@@ -1467,6 +1507,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &630555245
@@ -1559,6 +1604,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &664800854
@@ -1651,6 +1701,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &684701220
@@ -1743,6 +1798,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &747289415
@@ -1835,6 +1895,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &773606497
@@ -1960,6 +2025,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &819330957
@@ -2052,6 +2122,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &820478605
@@ -2224,6 +2299,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &869298993
@@ -2316,6 +2396,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &977368686
@@ -2408,6 +2493,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1015324527
@@ -2595,6 +2685,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1086892802
@@ -2720,6 +2815,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1133897550
@@ -2845,6 +2945,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1152885587
@@ -2937,6 +3042,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1173396559
@@ -3029,6 +3139,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1191415819
@@ -3349,6 +3464,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1418784598
@@ -3441,6 +3561,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1001 &1487554636
@@ -3587,6 +3712,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1533816610
@@ -3679,6 +3809,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1545151693
@@ -3771,6 +3906,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1673571120
@@ -3863,6 +4003,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1707489143
@@ -3989,6 +4134,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1810625269
@@ -4162,6 +4312,7 @@ MonoBehaviour:
   m_TextPuntuacio: {fileID: 1930692017}
   m_TextVidas: {fileID: 820478606}
   m_GameRestart: {fileID: 282294609}
+  m_bricks: 2
   m_score: 0
   m_vidas: 3
 --- !u!4 &1821647991
@@ -4410,6 +4561,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &1976807645
@@ -4502,6 +4658,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1001 &2025023033
@@ -4645,6 +4806,11 @@ MonoBehaviour:
   m_ball1: {fileID: 1224524502}
   PowerUps:
   - {fileID: 1542390697167658, guid: 2715ef3f76ffeeb4284da8040304e5db, type: 2}
+  - {fileID: 1071829085786288, guid: 96e65e902a501e04b840e3bc78e75415, type: 2}
+  - {fileID: 1493871735436072, guid: e1014af01a1164543a0595a1c47735ae, type: 2}
+  - {fileID: 1999969711814060, guid: 7b7be258a97977c4982f0a618f624d09, type: 2}
+  - {fileID: 1523307668958616, guid: 725447289c8abd341b47bb08a08d1db8, type: 2}
+  - {fileID: 1392598823900736, guid: e867c6a5209fbcc44a82240c06a682c1, type: 2}
   soundfx: {fileID: 2103771004}
   brick: {fileID: 8300000, guid: a528c1262eebab94684eb1fb94bb5ceb, type: 3}
 --- !u!1 &2090420391

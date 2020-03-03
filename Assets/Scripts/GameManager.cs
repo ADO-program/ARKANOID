@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour {
         m_TextVidas.text = "" + m_vidas;
 
         Vidas();
-        if (m_bricks == 0) { 
+        if (((m_bricks == 0)&&(SceneManager.GetActiveScene().buildIndex == 1))||((m_bricks == 0) && (SceneManager.GetActiveScene().buildIndex == 0))) { 
          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
             
         }
@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour {
 
     public void Vidas()
     {
-        if (m_vidas <= 0)
+        if ((m_vidas <= 0) || ((SceneManager.GetActiveScene().buildIndex == 2)&&(m_bricks == 0)))
         {
             m_GameRestart.SetActive(true);
         }

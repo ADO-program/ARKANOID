@@ -122,7 +122,7 @@ public class BricksPU : MonoBehaviour {
             m_GameManager.m_score += 10;
 
             Destroy(this.gameObject);
-
+            m_GameManager.m_bricks = m_GameManager.m_bricks-1;
             
             
 
